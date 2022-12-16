@@ -1,7 +1,12 @@
 import React from "react";
+import { useAuth } from "../context/authContext";
  
 
-export default function home (){
+export default function Home (){
+
+    const {user} = useAuth();
+    console.log(user);
+
     return(
         
         <div>
