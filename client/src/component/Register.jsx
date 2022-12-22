@@ -24,7 +24,7 @@ function Register() {
     setError("")
     try {
       await signup( user.email, user.password)
-      navigate('/home')
+      navigate('/homelogin')
     } catch (error) {
       console.log(error.code)
       if(error.code === "auth/invalid-email"){
