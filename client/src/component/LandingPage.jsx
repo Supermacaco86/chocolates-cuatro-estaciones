@@ -7,8 +7,14 @@ export default function LandingPage (){
         
         <div>
             <h1 >Bienvenido a Chocolates Cuatro estaciones!</h1>
-            <Link to = "/register">
+            <Link to = "/home">
                 <button>Ingresar</button>
+            </Link>
+            <Link to = "/register">
+                <button>Registrarse</button>
+            </Link>
+            <Link to = "/login">
+                <button>Login</button>
             </Link>
         </div>
         
