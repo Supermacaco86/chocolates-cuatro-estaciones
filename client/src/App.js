@@ -6,6 +6,7 @@ import {BrowserRouter} from "react-router-dom";
 import { AuthProvider } from './context/authContext';
 import LandingPage from './component/LandingPage';
 import Home from './component/Home';
+import HomeLogin from './component/HomeLogin';
 import Login from './component/Login';
 import Register from './component/Register';
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/login' element={<Login/>}/>
           <Route path='/register' element={<Register/>}/>
           <Route path='/home' exact element={<Home/>}/> 
+          <Route path='/homelogin' exact element={<HomeLogin/>}/>
         </Routes>
       </AuthProvider>
     </div>
