@@ -9,6 +9,8 @@ import Home from './component/Home';
 import HomeLogin from './component/HomeLogin';
 import Login from './component/Login';
 import Register from './component/Register';
+import Navbar from './component/shared/Navbar';
+import Footer from './component/shared/Footer';
 
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
     <BrowserRouter>
     <div className="App">
       <AuthProvider>
+        <Navbar/>
         <Routes>
           <Route exact path='/' element={<LandingPage/>}/>
           <Route path='/login' element={<Login/>}/>
@@ -23,6 +26,7 @@ function App() {
           <Route path='/home' exact element={<Home/>}/> 
           <Route path='/homelogin' exact element={<HomeLogin/>}/>
         </Routes>
+        <Footer/>
       </AuthProvider>
     </div>
     </BrowserRouter>
