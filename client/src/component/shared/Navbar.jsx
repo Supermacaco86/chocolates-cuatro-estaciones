@@ -11,7 +11,7 @@ function Navbar() {
             <button>Login</button>
         </Link>
         <Link to = "/home">
-            <button>Home</button>
+            <button>Ingresar</button>
         </Link>
     </div>
   )
