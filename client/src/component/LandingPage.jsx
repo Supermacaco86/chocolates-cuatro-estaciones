@@ -10,12 +10,6 @@ export default function LandingPage (){
             <Link to = "/home">
                 <button>Ingresar</button>
             </Link>
-            <Link to = "/register">
-                <button>Registrarse</button>
-            </Link>
-            <Link to = "/login">
-                <button>Login</button>
-            </Link>
         </div>
         
     )
