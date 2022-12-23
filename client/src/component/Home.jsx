@@ -10,7 +10,7 @@ export default function Home (){
     return(
         
         <div>
-            <h1 >Bienvenido al Home de Chocolates Cuatro Estaciones!</h1>
+            <h1 >Home de Chocolates Cuatro Estaciones!</h1>
         </div>
         
     )
