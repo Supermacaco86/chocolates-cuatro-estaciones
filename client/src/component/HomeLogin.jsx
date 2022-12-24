@@ -10,7 +10,7 @@ export default function HomeLogin (){
     return(
         
         <div>
-            <h1 >Bienvenido al Home logueado de Chocolates Cuatro Estaciones!</h1>
+            <h1 >Bienvenido {user.email} a Chocolates Cuatro Estaciones!</h1>
         </div>
         
     )

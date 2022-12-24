@@ -11,6 +11,7 @@ import Login from './component/Login';
 import Register from './component/Register';
 import Navbar from './component/shared/Navbar';
 import Footer from './component/shared/Footer';
+import ProtectedRoute from './component/ProtectedRout';
 
 
 function App() {
@@ -24,7 +25,11 @@ function App() {
           <Route path='/login' element={<Login/>}/>
           <Route path='/register' element={<Register/>}/>
           <Route path='/home' exact element={<Home/>}/> 
-          <Route path='/homelogin' exact element={<HomeLogin/>}/>
+          <Route path='/homelogin' exact element={
+            <ProtectedRoute>
+              <HomeLogin/>
+            </ProtectedRoute>
+          }/>
         </Routes>
         <Footer/>
       </AuthProvider>

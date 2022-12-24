@@ -2,7 +2,6 @@ import React from 'react'
 import { useState } from 'react'
 import { useAuth } from '../context/authContext'
 import { useNavigate } from 'react-router-dom';
-import { async } from '@firebase/util';
 
 function Login() {
 
@@ -27,13 +26,23 @@ function Login() {
       navigate('/homelogin')
     } catch (error) {
       console.log(error.code)
-      if(error.code === "auth/invalid-email"){
-        setError("Ingrese un correo valido")
-      }else if(error.code === "auth/wrong-password"){
-        setError("La contraseña ingresada es incorrecta")
+      switch(error){
+        case error.code === "auth/invalid-email":
+            setError("Correo invalido");
+            break;
+        case error.code === "auth/email-already-in-use":
+            setError("Usuario ya registrado");
+            break;
+        case error.code === "auth/weak-password":
+            setError("La contraseña debe tener al menos 6 digitos");
+            break;
+        case error.code === "auth/wrong-password":
+            setError("Contraseña incorrecta");
+            break;
+        case error.code === "auth/user-not-found":
+            setError("El usuario no existe"); 
       }
-    }
-    
+    } 
   }
 
   return (
@@ -42,12 +51,12 @@ function Login() {
       <form onSubmit={handleSubmit}>
         <label>Email</label>
         <input
-        type="text"
+        type="email"
         name="email"
         placeholder="user@compañy.com"
         onChange={handleChange}/>
 
-        <label>Password</label>
+        <label htmlFor="password">Password</label>
         <input
         type="password"
         name="password"
