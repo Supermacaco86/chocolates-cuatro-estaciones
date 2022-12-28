@@ -31,7 +31,9 @@ if(loading) return <h1>Cargando</h1>
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar-toggler">
-              <a class="navbar-brand" href="#">Hidden brand</a>
+              <a class="navbar-brand" href="#">
+              <img src="image/chocolatito.png" width="70"alt="Logo de la pagina"/>
+              </a>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Chocolate es mi pasion</a>
