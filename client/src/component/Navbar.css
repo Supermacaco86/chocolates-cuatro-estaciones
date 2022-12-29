@@ -5,7 +5,7 @@
   
   .navbar-collapse {
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
   }
   
   /* Adaptable responsivo */
