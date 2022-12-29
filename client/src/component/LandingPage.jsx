@@ -1,13 +1,17 @@
 import React from "react";
+import "../component/LandingPage.css"
 
 
 export default function LandingPage (){
     return(
         
         <div>
-            <h1 >Bienvenido a Chocolates Cuatro estaciones!</h1>
-            <h2>El chocolate es mi pasion!</h2>
-            <h3>Mi nombre es Santiago Figueroa, soy Chocolatier egresado de la escuela de Ingrid Koock. </h3>
+            <section className="section1 align-items-stretch">
+                <h1 >Bienvenido a Chocolates Cuatro estaciones!</h1>
+                <h2>El chocolate es mi pasion!</h2>
+                <h3>Mi nombre es Santiago Figueroa, soy Chocolatier egresado de la escuela de Ingrid Koock. </h3>
+            </section>
+            
             <h2>Mis productos</h2>
             <h3>Barras de chocolate</h3>
             <h4>Chocolate semiamargo con mani</h4>

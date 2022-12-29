@@ -26,6 +26,7 @@ if(loading) return <h1>Cargando</h1>
             <button>Ingresar</button>
         </Link>
         <button onClick={handleLogout}>Logout</button> */}
+        
         <nav class="navbar navbar-expand-md navbar-light">
           <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
