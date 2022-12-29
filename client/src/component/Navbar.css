@@ -3,6 +3,11 @@
     background-color: #eb7937;
     height: 60px;
   }
+
+  .nav-link{
+    font-size: 27px;
+    color: #612408;
+}
   
   .navbar-collapse {
     align-items: center;
