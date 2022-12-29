@@ -38,7 +38,7 @@ if(loading) return <h1>Cargando</h1>
               </a>
               <ul class="navbar-nav d-flex justify-cotent-center align-items-center">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Chocolate es mi pasion</a>
+                    <a class="nav-link" aria-current="page" href="#">Chocolate es mi pasion</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Mis productos</a>
