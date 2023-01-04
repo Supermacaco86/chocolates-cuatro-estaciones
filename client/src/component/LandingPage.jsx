@@ -38,14 +38,15 @@ export default function LandingPage (){
           </div>
         </section>
 
-            <section className="section1 seccion-clara">
+            <section id="Chocolate es mi pasion" className="section1 seccion-clara">
                 <div>
                     <h1 className="titulo">Bienvenido a Chocolates Cuatro estaciones!</h1>
                     <h2 className="subtitulo">El chocolate es mi pasion!</h2>
-                    <h3 className="texto">Mi nombre es Santiago Figueroa, soy Chocolatier egresado de la escuela de Ingrid Koock. El camino del chocolate puede tomar una gran cantidad de diferentes direcciones. En mi caso, elejí para desarrollarme profecionalmente tres bien diferencadas. La primera fue la produccion de barras y bombones, de diferentes sabores y distintos rellenos siempre en la busqueda de maridajes originales y novedosos. El segundo camino que encontré en la manipulacion del chocolate fue el de utilizarlo como baño y fue ahí donde comenzé a producir alfajores de linea premium. Y por último y quizas el que demandó ampliar mis estudios y conocimientos es el que me permitió desarrollar mi tortas. Trabajadas de manera personalizada para cada cliente en particular. </h3>
+                    <h3 className="texto">Mi nombre es Santiago Figueroa, soy Chocolatier egresado de la escuela de Ingrid Koock. El camino del chocolate puede tomar una gran cantidad de diferentes direcciones. En mi caso, elejí para desarrollarme profecionalmente tres bien diferencadas. La primera fue la produccion de barras y bombones, de diferentes sabores y distintos rellenos siempre en la busqueda de maridajes originales y novedosos. El segundo camino que encontré en la manipulacion del chocolate fue el de utilizarlo como baño y fue ahí donde comenzé a producir alfajores de linea premium. Y por último y quizas el que demandó ampliar mis estudios y conocimientos es el que me permitió desarrollar mis tortas. Trabajadas de manera personalizada para cada cliente en particular. </h3>
                 </div>
             </section>
             
+          <section id="mis productos">
             <h2>Mis productos</h2>
             <h3>Barras de chocolate</h3>
             <h4>Chocolate semiamargo con mani</h4>
@@ -60,6 +61,7 @@ export default function LandingPage (){
             <h4>Bombones de chocolate semiamargo rellenos de dulce de leche</h4>
             <h4>Bombones de chocolate con leche rellenos de castañas de caju</h4>
             <h4>Bombones de chocolate blanco</h4>
+          </section>
         </div>
         
     )
