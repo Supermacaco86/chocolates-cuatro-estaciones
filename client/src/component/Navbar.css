@@ -1,12 +1,12 @@
 .navbar {
     padding: 2.7rem;
-    background-color: #eb7937;
+    background-color: #0e0601;
     height: 60px;
   }
 
   .nav-link{
-    font-size: 27px;
-    color: #612408;
+    font-size: 15px;
+    color: #f7f5f4;
 }
   
   .navbar-collapse {

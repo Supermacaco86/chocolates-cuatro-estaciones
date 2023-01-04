@@ -1,5 +1,78 @@
-.section1{
-    background-color: #f7f7f9;
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section1 {
+    background-color: #030334;
     min-height: 150px;
+    text-align: center;
+    padding: 100px;
+}
+
+.seccion-clara {
+    background-color: #fcfbfb;
+    text-align: center;
+}
+
+.seccion-oscura {
+    background-color: #0c0301;
+    text-align: center;
+}
+
+.seccion-oscura1 {
+    color: white;
+    background-color: #2e2e78;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 1.7rem;
+    padding: 7px 0;
+    text-align: center;
+}
+
+.texto {
+    font-size: 1rem;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 100px;
+}
+/* Seccion marca */
+
+.marca {
+    color: white;
+    font-size: 90px;
+    font-family: 'Passions Conflict', cursive;
+}
+
+/* Seccion carrusel */
+
+.carousel {
+    max-width: 1000px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.caruosel-imagen {
+    height: 550px;
+    width: 750px;
+}
+
+.carousel-texto {
+    color: white;
+    max-width: 70%;
+    font-size: 60px;
     text-align: center;
 }
