@@ -6,10 +6,44 @@ export default function LandingPage (){
     return(
         
         <div>
-            <section className="section1 align-items-stretch">
-                <h1 >Bienvenido a Chocolates Cuatro estaciones!</h1>
-                <h2>El chocolate es mi pasion!</h2>
-                <h3>Mi nombre es Santiago Figueroa, soy Chocolatier egresado de la escuela de Ingrid Koock. </h3>
+          {/* Marca */}
+        <section class="seccion-oscura">
+        <div class="marca">Chocolates Cuatro Estaciones</div>
+          </section>  
+            {/* Carrusel */}
+        <section class="seccion-oscura">
+          <div id="carouselExample" class="carousel slide ">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="image\chocolate-cake-with-red-and-black-currant.jpg" class="d-block w-100" alt="..."/>
+                <p class="carousel-texto">Chocolates Cuatro estaciones</p>             
+              </div>
+              <div class="carousel-item">
+                <img src="image\flat-lay-delicious-chocolate-tablets-arrangement.jpg" class="d-block w-100" alt="..."/>
+                <p class="carousel-texto">Chocolates Cuatro estaciones</p>
+              </div>
+              <div class="carousel-item">
+                <img src="image\top-view-of-delicious-alfajores-with-copy-space.jpg" class="d-block w-100" alt="..."/>
+                <p class="carousel-texto">Chocolates Cuatro estaciones</p>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+            <section className="section1 seccion-clara">
+                <div>
+                    <h1 className="titulo">Bienvenido a Chocolates Cuatro estaciones!</h1>
+                    <h2 className="subtitulo">El chocolate es mi pasion!</h2>
+                    <h3 className="texto">Mi nombre es Santiago Figueroa, soy Chocolatier egresado de la escuela de Ingrid Koock. El camino del chocolate puede tomar una gran cantidad de diferentes direcciones. En mi caso, elejí para desarrollarme profecionalmente tres bien diferencadas. La primera fue la produccion de barras y bombones, de diferentes sabores y distintos rellenos siempre en la busqueda de maridajes originales y novedosos. El segundo camino que encontré en la manipulacion del chocolate fue el de utilizarlo como baño y fue ahí donde comenzé a producir alfajores de linea premium. Y por último y quizas el que demandó ampliar mis estudios y conocimientos es el que me permitió desarrollar mi tortas. Trabajadas de manera personalizada para cada cliente en particular. </h3>
+                </div>
             </section>
             
             <h2>Mis productos</h2>
