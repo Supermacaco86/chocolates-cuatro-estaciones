@@ -19,7 +19,7 @@ section {
 }
 
 .seccion-oscura {
-    background-color: #0c0301;
+    background-color: #CC704B;
     text-align: center;
 }
 
@@ -52,13 +52,16 @@ section {
 .marca {
     color: white;
     font-size: 90px;
-    font-family: 'Passions Conflict', cursive;
+    font-weight: bold;
+    width: 100%;
+    text-align: initial;
+    background-color: rgb(232, 192, 125);
 }
 
 /* Seccion carrusel */
 
 .carousel {
-    max-width: 1000px;
+    width: 100%;
 }
 
 .carousel-item {
@@ -76,3 +79,31 @@ section {
     font-size: 60px;
     text-align: center;
 }
+
+.carousel-titulo1 {
+    font-size: 190px;
+    text-shadow: rgb(136, 132, 120) 2px 0 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    margin-bottom: 100px;
+}
+
+
+.carousel-titulo2 {
+    font-size: 160px;
+    text-shadow: rgb(136, 132, 120) 2px 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-titulo3 {
+    font-size: 160px;
+    text-shadow: rgb(136, 132, 120) 2px 0 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+}
+/* mis-productos */
+

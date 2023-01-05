@@ -8,35 +8,49 @@ export default function LandingPage (){
         <div>
           {/* Marca */}
         <section class="seccion-oscura">
-        <div class="marca">Chocolates Cuatro Estaciones</div>
-          </section>  
+          <div class="marca">Chocolates Cuatro Estaciones</div>
+        </section>  
             {/* Carrusel */}
         <section class="seccion-oscura">
-          <div id="carouselExample" class="carousel slide ">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="image\chocolate-cake-with-red-and-black-currant.jpg" class="d-block w-100" alt="..."/>
-                <p class="carousel-texto">Chocolates Cuatro estaciones</p>             
-              </div>
-              <div class="carousel-item">
-                <img src="image\flat-lay-delicious-chocolate-tablets-arrangement.jpg" class="d-block w-100" alt="..."/>
-                <p class="carousel-texto">Chocolates Cuatro estaciones</p>
-              </div>
-              <div class="carousel-item">
-                <img src="image\top-view-of-delicious-alfajores-with-copy-space.jpg" class="d-block w-100" alt="..."/>
-                <p class="carousel-texto">Chocolates Cuatro estaciones</p>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+        <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+         </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image\chocolate-cake-with-red-and-black-currant.jpg" class="d-block w-100" alt="..."/>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carousel-titulo1">Tortas</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+             </div>
           </div>
-        </section>
+          <div class="carousel-item">
+            <img src="image\flat-lay-delicious-chocolate-tablets-arrangement.jpg" class="d-block w-100" alt="..."/>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carousel-titulo2">Chocolates</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image\top-view-of-delicious-alfajores-with-copy-space.jpg" class="d-block w-100" alt="..."/>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carousel-titulo3">Alfajores</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
 
             <section id="Chocolate es mi pasion" className="section1 seccion-clara">
                 <div>
