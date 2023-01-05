@@ -6,12 +6,8 @@ export default function LandingPage (){
     return(
         
         <div>
-          {/* Marca */}
-        <section class="seccion-oscura">
-          <div class="marca">Chocolates Cuatro Estaciones</div>
-        </section>  
             {/* Carrusel */}
-        <section class="seccion-oscura">
+        <section>
         <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -21,21 +17,21 @@ export default function LandingPage (){
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="image\chocolate-cake-with-red-and-black-currant.jpg" class="d-block w-100" alt="..."/>
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption  d-md-block">
               <h5 class="carousel-titulo1">Tortas</h5>
               <p>Some representative placeholder content for the first slide.</p>
              </div>
           </div>
           <div class="carousel-item">
             <img src="image\flat-lay-delicious-chocolate-tablets-arrangement.jpg" class="d-block w-100" alt="..."/>
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-md-block">
               <h5 class="carousel-titulo2">Chocolates</h5>
               <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="image\top-view-of-delicious-alfajores-with-copy-space.jpg" class="d-block w-100" alt="..."/>
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-md-block">
               <h5 class="carousel-titulo3">Alfajores</h5>
               <p>Some representative placeholder content for the third slide.</p>
             </div>
