@@ -34,7 +34,7 @@ if(loading) return <h1>Cargando</h1>
             </button>
             <div class="collapse navbar-collapse" id="navbar-toggler">
               <a class="navbar-brand" href="#">
-              <img src="image/chocolatito.png" width="70"alt="Logo de la pagina"/>
+              <div class="navbar-titulo">Cuatro estaciones</div>
               </a>
               <ul class="navbar-nav d-flex justify-cotent-center align-items-center">
                   <li class="nav-item">

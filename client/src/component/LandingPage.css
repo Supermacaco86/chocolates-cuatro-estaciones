@@ -5,21 +5,13 @@ section {
     justify-content: center;
 }
 
-
-.section1 {
-    background-color: #030334;
-    min-height: 150px;
-    text-align: center;
-    padding: 100px;
-}
-
 .seccion-clara {
     background-color: #fcfbfb;
     text-align: center;
 }
 
 .seccion-oscura {
-    background-color: #CC704B;
+    background-color: #CC704B; 
     text-align: center;
 }
 
@@ -107,3 +99,35 @@ section {
 }
 /* mis-productos */
 
+/* Resposive */
+
+@media screen and (max-width: 800px){
+    .caruosel-imagen {
+        height: 120px;
+        width: 120px;
+    }    
+    .carousel-texto {
+        font-size: 18px;
+    }
+    .carousel-titulo1 {
+        font-size: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 200px;
+    }
+    .carousel-titulo2 {
+        font-size: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 200px;
+    }
+    .carousel-titulo3 {
+        font-size: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 200px;
+    }
+}
