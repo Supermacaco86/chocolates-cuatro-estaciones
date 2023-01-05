@@ -74,7 +74,7 @@ section {
 
 .carousel-titulo1 {
     font-size: 190px;
-    text-shadow: rgb(136, 132, 120) 2px 0 10px;
+    text-shadow: rgb(36, 35, 33) 10px 0 10px;
     display: flex;
     align-items: flex-start;
     justify-content: end;
@@ -84,7 +84,7 @@ section {
 
 .carousel-titulo2 {
     font-size: 160px;
-    text-shadow: rgb(136, 132, 120) 2px 0 10px;
+    text-shadow: rgb(36, 35, 33) 10px 0 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,7 +92,7 @@ section {
 
 .carousel-titulo3 {
     font-size: 160px;
-    text-shadow: rgb(136, 132, 120) 2px 0 10px;
+    text-shadow:  rgb(36, 35, 33) 10px 0 18px;
     display: flex;
     align-items: flex-start;
     justify-content: end;
