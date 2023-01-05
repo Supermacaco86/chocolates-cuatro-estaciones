@@ -47,6 +47,8 @@ export default function LandingPage (){
       </button>
     </div>
   </section>
+  <section class="intermedia"></section>
+  <section class="intermedia1"></section>
 
             <section id="Chocolate es mi pasion" className="section1 seccion-clara">
                 <div>
@@ -56,7 +58,7 @@ export default function LandingPage (){
                 </div>
             </section>
             
-          <section id="mis productos">
+          <section id="mis productos" class="mis-productos">
             <h2>Mis productos</h2>
             <h3>Barras de chocolate</h3>
             <h4>Chocolate semiamargo con mani</h4>
