@@ -3,7 +3,7 @@ import "../../component/shared/footer.css"
 
 function Footer() {
   return (
-    <div><section id="contacto" class="contacto seccion-oscura">
+    <div><section id="contacto" class="contacto seccion-footer">
     <div class="container">
       <div class="container text-center rectangulo d-flex justify-content-evenly">
         <div class="row">
@@ -21,7 +21,7 @@ function Footer() {
       </div>
     </div>
   </section>
-  <section class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+  <section class="seccion-footer1 d-flex flex-column align-items-center justify-content-center">
           <div class="iconos-redes-sociales d-flex flex-wrap align-items-center jutify-content-center">
             <a href="https://twitter.com/supermacaco86" target="_blank" rel="noopener noreferrer">
               <i class="bi bi-twitter"></i>

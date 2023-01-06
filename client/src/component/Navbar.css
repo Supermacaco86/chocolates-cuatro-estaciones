@@ -1,6 +1,6 @@
 .navbar {
     padding: 2.7rem;
-    background-color: rgb(28, 10, 0);
+    background-color: rgb(60, 98, 85);
     height: 140px;
   } 
 
@@ -22,7 +22,7 @@
 
   .abajo {
     height: 20px;
-    background-color: rgb(54, 21, 0);
+    background-color: rgb(166, 187, 141);
   }
   
   /* Adaptable responsivo */
