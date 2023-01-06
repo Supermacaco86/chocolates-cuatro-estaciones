@@ -7,8 +7,8 @@ function Footer() {
     <div class="container">
       <div class="container text-center rectangulo d-flex justify-content-evenly">
         <div class="row">
-          <div class="col-12 col-md-4 seccion-titulo">¡Hablémos!</div>
-          <div class="col-12 col-md-4 description">Contáctame para hacer un encargo o para obtener más inormacion</div>
+          <div class="col-12 col-md-4 seccion-titulo-footer">¡Hablémos!</div>
+          <div class="col-12 col-md-4 description-footer">Contáctame para hacer un encargo o para obtener más inormacion</div>
           <div class="col-12 col-md-4">
             <a href="mailto:martinfigueroa2103@hotmail.com">
               <button type="button">

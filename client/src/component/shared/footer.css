@@ -37,7 +37,7 @@
 
 .contacto button:hover {
     background-color: white;
-    color: black;
+    color: rgb(60, 98, 85);
 }
 
 .contacto button i {
@@ -47,7 +47,7 @@
 }
 
 .contacto button:hover i {
-    color: black;
+    color: rgb(60, 98, 85);
 }
 
 /* Pie de pagina(footer) */
@@ -57,10 +57,20 @@ footer {
 }
 
 .seccion-footer {
+    height: 130px;
     background-color: rgb(166, 187, 141);
 }
 .seccion-footer1 {
+    height: 160px;
     background-color: rgb(234, 231, 177);
+}
+
+.seccion-titulo-footer{
+    color: #ffffff;
+}
+
+.description-footer{
+    color: #ffffff;
 }
 
 .footer-logo {
@@ -84,28 +94,28 @@ footer {
     justify-content: center;
     padding: 2px;
     margin: 10px;
-    border: 2px solid white;
+    border: 2px solid rgb(60, 98, 85);
     border-radius: 50%;
     transition: all 0.2s ease-in;
 }
 
 .iconos-redes-sociales i {
-    color: white;
+    color: rgb(60, 98, 85);
     font-size: 1.5rem;
     transition: all 0.2s ease-in;
 }
 
 .iconos-redes-sociales a:hover {
     background-color: white;
-    border: 2px solid rgb(13, 110, 253);
+    border: 2px solid rgb(110, 190, 162);
 } 
 
 .iconos-redes-sociales a:hover i {
-    color: black;
+    color: rgb(60, 98, 85);
 }
 
 .derechos-de-autor {
     font-size: 15px;
-    color: #aeaeae;
-    padding: 20px;   
+    color:rgb(60, 98, 85);
+    padding: 20px;  
 }

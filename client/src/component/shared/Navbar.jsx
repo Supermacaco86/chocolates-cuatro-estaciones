@@ -44,7 +44,7 @@ if(loading) return <h1>Cargando</h1>
                     <a class="nav-link" href="#mis productos">Mis productos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
                   </li>
                 </ul>
       {/* <form class="d-flex" role="search">
