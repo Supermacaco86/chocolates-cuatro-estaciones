@@ -33,12 +33,12 @@ section {
     text-align: center;
 }
 
-.texto {
+/* .texto {
     font-size: 1rem;
     padding-left: 300px;
     padding-right: 300px;
     padding-bottom: 100px;
-}
+} */
 
 /* Seccion carrusel */
 
@@ -97,8 +97,31 @@ section {
 
 .intermedia1 {
     height: 20px;
-    background-color:rgb(234, 231, 177);
+    background-color:rgb(166, 187, 141);
 }
+
+/* Chocolate es mi pasion */
+
+.chocolate-es-mi-pasion {
+    height: 900px;
+    padding: 10px;
+    background-color: rgb(234, 231, 177);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chocolate-es-mi-pasion .contenedor {
+    max-width: 900px;
+    text-align: center;
+}
+.chocolate-es-mi-pasion .texto {
+    font-size: 1.2rem;
+    padding: 15px 10px;
+}
+
+
 
 /* mis-productos */
 
@@ -138,3 +161,10 @@ section {
         margin-bottom: 200px;
     }
 }
+
+@media screen and (min-width: 700px){   
+    .texto {
+        font-size: 18px;
+    }
+}
+
