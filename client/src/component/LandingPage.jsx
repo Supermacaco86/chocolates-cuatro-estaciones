@@ -60,19 +60,32 @@ export default function LandingPage (){
             
           <section id="mis productos" class="mis-productos">
             <h2>Mis productos</h2>
-            <h3>Barras de chocolate</h3>
-            <h4>Chocolate semiamargo con mani</h4>
-            <h4>Chocolate con leche relleno de dulce de leche</h4>
-            <h4>Chocolate marmolado</h4>
-            <h4>Chocolate blanco con cookies</h4>
-            <h3>Tortas</h3>
-            <h4>Tortas decoradas</h4>
-            <h4>Tortas de diferentes rellenos</h4>
-            <h3>Bombones</h3>
-            <h4>Bombones rellenos de licor</h4>
-            <h4>Bombones de chocolate semiamargo rellenos de dulce de leche</h4>
-            <h4>Bombones de chocolate con leche rellenos de castañas de caju</h4>
-            <h4>Bombones de chocolate blanco</h4>
+              <div class="container text-center">
+                <div class="row">
+                  <div class="columna col-12 col-md-4">
+                  <img src="image\flat-lay-delicious-chocolate-tablets-arrangement.jpg" class="d-block w-100" alt="..."/>
+                    <h3>Barras de chocolate</h3>
+                    <h4>Chocolate semiamargo con mani</h4>
+                    <h4>Chocolate con leche relleno de dulce de leche</h4>
+                    <h4>Chocolate marmolado</h4>
+                    <h4>Chocolate blanco con cookies</h4>
+                  </div>     
+                  <div class="columna col-12 col-md-4">
+                  <img src="image\chocolate-cake-with-red-and-black-currant.jpg" class="d-block w-100" alt="..."/>
+                    <h3>Tortas</h3>
+                    <h4>Tortas decoradas</h4>
+                    <h4>Tortas de diferentes rellenos</h4>
+                  </div>
+                  <div class="columna col-12 col-md-4">
+                  <img src="image\top-view-of-delicious-alfajores-with-copy-space.jpg" class="d-block w-100" alt="..."/>
+                    <h3>Bombones</h3>
+                    <h4>Bombones rellenos de licor</h4>
+                    <h4>Bombones de chocolate semiamargo rellenos de dulce de leche</h4>
+                    <h4>Bombones de chocolate con leche rellenos de castañas de caju</h4>
+                    <h4>Bombones de chocolate blanco</h4>
+                  </div>
+                </div>
+              </div>
           </section>
         </div>
         
